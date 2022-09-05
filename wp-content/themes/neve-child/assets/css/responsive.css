@@ -1,0 +1,163 @@
+@media screen and (max-width:1599px){
+    body .cstContainer .elementor-container{
+        max-width:1280px!important;
+    }
+
+    body #priSection.cstContainer .elementor-container{
+        max-width:1366px!important;
+    }
+
+    body #supTraining.cstContainer .elementor-container{
+        max-width:1280px;
+    }
+    #supTraining .listIcon .elementor-icon-list-icon{
+        width:35px;
+        height:35px;
+    }
+    #supTraining .listIcon .elementor-icon-list-icon i{
+        font-size:18px;
+    }
+    
+}
+
+
+@media screen and (max-width:1299px){
+    body .cstContainer .elementor-container{
+        max-width:1170px!important;
+    }
+
+    body #priSection.cstContainer .elementor-container{
+        max-width:1280px!important;
+    }
+
+    body #supTraining.cstContainer .elementor-container{
+        max-width:1170px;
+    }
+    #supTraining .listIcon .elementor-icon-list-icon{
+        width:35px;
+        height:35px;
+    }
+    #supTraining .listIcon .elementor-icon-list-icon i{
+        font-size:18px;
+    }
+    .elementor-2 .elementor-element.elementor-element-f6a3971 > .elementor-element-populated{
+        padding-right:80px!important
+    }
+
+    #canUBC{
+        position: relative;
+    }
+    #canUBC .canaArea{
+        position: absolute;
+        top:-100px;
+    }
+}
+
+@media screen and (max-width:1279px){
+    #supTraining .listIcon .elementor-icon-list-icon{
+        width:28px;
+        height:28px;
+    }
+    #supTraining .listIcon .elementor-icon-list-icon i{
+        font-size:16px;
+    }
+
+    body .accor .elementor-accordion-item{
+        border:none!important;
+        border-top:1px solid #E1B384!important;
+        padding:25px 30px;
+    }
+    
+    body .accor .elementor-accordion-item:last-child{
+        border-bottom:1px solid #E1B384!important;
+        
+    }
+    
+    
+    body .accor .elementor-tab-title,
+    body .accor .elementor-tab-content{
+        border:none!important;
+    }
+}
+
+@media screen and (max-width:1023px){
+    body #aboutProgram .elementor-column{
+        width:100%!important
+    }
+    body #aboutProgram {
+        padding-left:35px;
+        padding-right:35px;
+    }
+    body #aboutProgram .elementor-element .elementor-widget-container {
+        --e-transform-translateX: 0;
+        margin-left: 0;
+    }
+    body #aboutProgram .elementor-widget-wrap{
+        padding-top:0;
+    }
+
+    body #fininCentive .elementor-container .elementor-column{
+        width:100%;
+        margin-bottom:35px
+    }
+    body #fininCentive .elementor-container .elementor-column:last-child{
+        margin-bottom:0;
+    }
+    body #supTraining .elementor-container .elementor-column{
+        width:100%;        
+    }
+    body #supTraining .elementor-container .elementor-widget-wrap{
+        padding-right:0;
+    }
+
+    body .accordians.elementor-section{
+        padding:0!important
+    }
+
+    body .accordians.elementor-section .elementor-widget-wrap.elementor-element-populated{
+        margin-top:0!important;
+    }
+
+    body .aboutUBC .elementor-container .elementor-column{
+        width:100%;
+    }
+    body .aboutUBC .elementor-container .elementor-column .elementor-widget-wrap{
+        padding:0;
+    }
+    body .aboutUBC .elementor-container .elementor-column .elementor-element .elementor-widget-container{
+        --e-transform-translateX:0;
+        margin-left:0;
+    }
+}
+
+@media screen and (max-width:639px){
+    body #aboutProgram {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    body #fininCentive .elementor-container .elementor-column{        
+        margin-bottom:30px
+    }
+    body .accor .elementor-accordion-item{
+        padding:22px 20px;
+    }
+    body .accor .elementor-accordion i{
+        font-size:25px;
+    }
+    #supTraining .listIcon .elementor-icon-list-icon {
+        width: 45px;
+        height: 45px;
+    }
+    #supTraining .listIcon .elementor-icon-list-icon i{
+        font-size:20px;
+    }
+    .appCstButton .elementor-button-link {
+        width: 100%!important;
+    }
+    .appCstButton .elementor-button-link > span {
+        display: inline-block;
+      }
+    .appCstButton .elementor-button-icon.elementor-align-icon-right {
+        float: right;
+    }
+}
