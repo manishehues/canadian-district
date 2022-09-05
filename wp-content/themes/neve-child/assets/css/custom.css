@@ -49,6 +49,33 @@ body{
     font-size:30px;
 }
 
+.siteHeader .elementor-button-wrapper i{
+    font-size:16px;
+}
+.siteHeader .elementor-menu-toggle,
+.siteHeader .elementor-nav-menu--dropdown{
+    display:none!important;
+}
+
+
+.siteHeader .elementor-nav-menu--layout-horizontal{
+    display:flex;
+}
+.siteHeader .elementor-nav-menu--layout-horizontal .elementor-nav-menu{
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-left:auto;
+}
+.siteHeader .elementor-nav-menu--layout-horizontal .elementor-nav-menu > li{
+    display: inline
+}
+
+
+.listIcon .elementor-icon-list-item{
+    float:left;
+    width:100%;
+}
 
 .listIcon .elementor-icon-list-icon{
     border:1px solid #131D39;
@@ -59,6 +86,7 @@ body{
     justify-content: center;
     text-align: center;
     margin-right:10px;
+    float:left;
 }
 .listIcon .elementor-icon-list-icon i{
     text-align: center

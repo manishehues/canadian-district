@@ -10,11 +10,11 @@
     body #supTraining.cstContainer .elementor-container{
         max-width:1280px;
     }
-    #supTraining .listIcon .elementor-icon-list-icon{
+    body .listIcon .elementor-icon-list-icon{
         width:35px;
         height:35px;
     }
-    #supTraining .listIcon .elementor-icon-list-icon i{
+    body .listIcon .elementor-icon-list-icon i{
         font-size:18px;
     }
     
@@ -78,30 +78,41 @@
     body .accor .elementor-tab-content{
         border:none!important;
     }
+
+    .siteHeader .elementor-nav-menu--layout-horizontal{
+        display:flex!important;
+    }
+    .siteHeader .elementor-nav-menu--layout-horizontal .elementor-nav-menu{
+        margin-right:auto;
+    }
+    .siteHeader .elementor-nav-menu--main .elementor-item{
+        padding-left:20px!important;
+        padding-right:20px!important;
+    }
 }
 
 @media screen and (max-width:1023px){
-    body #aboutProgram .elementor-column{
+    body .aboutProgram .elementor-column{
         width:100%!important
     }
-    body #aboutProgram {
-        padding-left:35px;
-        padding-right:35px;
+    body .aboutProgram {
+        padding-left:35px!important;
+        padding-right:35px!important;
     }
-    body #aboutProgram .elementor-element .elementor-widget-container {
-        --e-transform-translateX: 0;
-        margin-left: 0;
+    body .aboutProgram .elementor-element .elementor-widget-container {
+        --e-transform-translateX: 0!important;
+        margin-left: 0!important;
     }
-    body #aboutProgram .elementor-widget-wrap{
-        padding-top:0;
+    body .aboutProgram .elementor-widget-wrap{
+        padding-top:0!important;
     }
 
-    body #fininCentive .elementor-container .elementor-column{
-        width:100%;
-        margin-bottom:35px
+    body .fininCentive .elementor-container .elementor-column{
+        width:100%!important;
+        margin-bottom:35px!important
     }
-    body #fininCentive .elementor-container .elementor-column:last-child{
-        margin-bottom:0;
+    body .fininCentive .elementor-container .elementor-column:last-child{
+        margin-bottom:0!important;
     }
     body #supTraining .elementor-container .elementor-column{
         width:100%;        
@@ -159,5 +170,15 @@
       }
     .appCstButton .elementor-button-icon.elementor-align-icon-right {
         float: right;
+    }
+
+    .siteHeader .elementor-nav-menu--layout-horizontal .elementor-nav-menu{
+        white-space: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        flex-wrap: inherit !important;
+        -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+        justify-content: unset;
     }
 }

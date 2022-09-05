@@ -20,13 +20,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'cd' );
+define( 'DB_NAME', 'woazuymy_cd' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'woazuymy_cd' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'Shinda@11' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -79,8 +79,11 @@ $table_prefix = 'district_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+// Enable Debug logging to the /wp-content/debug.log file
+define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG', true );
 define('ALLOW_UNFILTERED_UPLOADS', true);
+define( 'WP_MEMORY_LIMIT', '512M' );
 
 /* Add any custom values between this line and the "stop editing" line. */
 

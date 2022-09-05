@@ -1,0 +1,8 @@
+[05-Sep-2022 07:35:40 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in /home4/woazuymy/public_html/canadian-district/wp-includes/wp-db.php on line 2169
+[05-Sep-2022 07:36:38 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in /home4/woazuymy/public_html/canadian-district/wp-includes/wp-db.php on line 2169
+[05-Sep-2022 07:38:39 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in /home4/woazuymy/public_html/canadian-district/wp-includes/wp-db.php on line 2169
+[05-Sep-2022 07:42:29 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in /home4/woazuymy/public_html/canadian-district/wp-includes/wp-db.php on line 2169
+[05-Sep-2022 07:43:04 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in /home4/woazuymy/public_html/canadian-district/wp-includes/wp-db.php on line 2169
+[05-Sep-2022 07:43:24 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 266240 bytes) in /home4/woazuymy/public_html/canadian-district/wp-includes/wp-db.php on line 2169
+[05-Sep-2022 07:44:00 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 262144 bytes) in /home4/woazuymy/public_html/canadian-district/wp-includes/wp-db.php on line 2169
+[05-Sep-2022 07:46:22 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home4/woazuymy/public_html/canadian-district/wp-includes/wp-db.php on line 2135
